@@ -1,0 +1,16 @@
+body {
+	background-color: aquamarine;
+	color: white;
+}
+
+header {
+	background-color: red;
+
+}
+main {
+	background-color: olive;
+
+}
+main p {
+	color: red;
+}
