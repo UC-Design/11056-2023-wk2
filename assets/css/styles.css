@@ -1,16 +1,56 @@
+/* reset the default spacing to 0 */
+* {
+	margin: 0;
+	padding: 0;
+}
 body {
 	background-color: aquamarine;
 	color: white;
 }
 
+/* header image */
 header {
-	background-color: red;
-
+	background-image: url(../images/cat.jpg);
+	height: 300px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
+
 main {
 	background-color: olive;
+	clear: both;
 
 }
 main p {
+	color: #99cc00;
+}
+footer {
+background-color: #000000;
+clear: both;
+}
+
+div {
+	background-color: orange;
+}
+
+/* we target an id with a hash */
+#box-container {
+	/* crude way to make the boxes sit alongside each other */
+	width: 100%;
+	float: left;
+}
+
+/* we target a class with a period/full stop */
+.box {
+	background-color: pink;
+
+	/* crude way to make the boxes sit alongside each other */
+	width: 40%;
+	float: left;
+	margin: 1em;
+}
+.box2 {
 	color: red;
+	padding: 1em;
 }
